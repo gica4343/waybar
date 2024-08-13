@@ -1,40 +1,20 @@
 // -*- mode: json -*-
 
 {
-	"layer": "top",
-	"position": "top",
+	"layer": "bottom",
+	"position": "bottom",
     "height": 26, 
-	"modules-left": [
-		"sway/workspaces",
-		"custom/right-arrow-dark", 
-    "custom/right-arrow-light", 
-        "pulseaudio", 
-		"custom/right-arrow-dark",
+	"modules-right": [
+    "tray",
+    "pulseaudio", 
+    "clock#1",
 
 	],
-	"modules-center": [
-		"custom/left-arrow-dark",
-		"clock#1",
-		"custom/left-arrow-light",
-		"custom/left-arrow-dark",
-		"clock#2",
-		"custom/right-arrow-dark",
-		"custom/right-arrow-light",
-		"clock#3",
-		"custom/right-arrow-dark"
-	],
-	"modules-right": [
-		"custom/left-arrow-dark",
-		"memory",
-		"custom/left-arrow-light",
-		"custom/left-arrow-dark",
+	"modules-left": [
+		"sway/workspaces",
+    "memory",
 		"cpu",
-		"custom/left-arrow-light",
-		"custom/left-arrow-dark",
 		"disk",
-		"custom/left-arrow-light",
-		"custom/left-arrow-dark",
-		"tray"
 	],
 
 	"custom/left-arrow-dark": {
@@ -57,16 +37,8 @@
 		"disable-scroll": true,
 		"format": "{name}"
 	},
-	"clock#1":{
-		"format": "{:%a}",
-		"tooltip": false
-	}, 
-	"clock#2": {
-		"format": "{:%I:%M %p}",
-		"tooltip": false
-	},
-	"clock#3": {
-		"format": "{:%d-%m}",
+	"clock#1": {
+		"format": "{:%A, %B %d, %Y %I:%M %p}",
 		"tooltip": false
 	},
     
