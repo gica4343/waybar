@@ -1,51 +1,33 @@
 * {
 	font-size: 17px;
-	font-family: "CommitMono";
+	font-family: "CommitMono Nerd Font Propo";
+  border-radius: 0;
 }
 
 window#waybar {
-	background: #1d1d1d;
-	color: #ffffff;
+	background: #261c13;
+	color: #7b7e5f;
 
 }
 
-#custom-right-arrow-dark,
-#custom-left-arrow-dark {
-	color: #1a1a1a;
-}
-#custom-right-arrow-light,
-#custom-left-arrow-light {
-	color: #292b2e;
-	background: #1a1a1a;
-}
-
-#workspaces,
-#clock.1,
-#pulseaudio,
-#backlight, 
-#memory,
-#cpu,
-#battery,
-#disk,
-#custom-pomodoro, 
-#network, 
 #tray {
-	background: #1d1d1d;
+  margin-right: 10px;
 }
 
 #workspaces button {
-	padding: 0 2px;
+  padding: 0 8px;
     color: #555555;
 }
 #workspaces button.focused {
-    color: #8a9070;
+  background: #7b7e5f;	
+  color: #261c13;
 }
 #workspaces button:hover {
 	box-shadow: inherit;
 	text-shadow: inherit;
 }
 #workspaces button:hover {
-	background: #1a1a1a;
+	
 	border: #1a1a1a;
 	padding: 0 3px;
 }

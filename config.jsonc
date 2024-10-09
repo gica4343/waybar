@@ -1,12 +1,14 @@
 // -*- mode: json -*-
 
 {
-	"layer": "bottom",
-	"position": "bottom",
+	"layer": "top",
+	"position": "top",
     "height": 26, 
 	"modules-right": [
     "tray",
-    "pulseaudio", 
+    "custom/separator",
+    "pulseaudio",
+    "custom/separator",
     "clock#1",
 
 	],
@@ -17,20 +19,9 @@
 		"disk",
 	],
 
-	"custom/left-arrow-dark": {
-		"format": "",
-		"tooltip": false
-	},
-	"custom/left-arrow-light": {
-		"format": "",
-		"tooltip": false
-	},
-	"custom/right-arrow-dark": {
-		"format": "",
-		"tooltip": false
-	},
-	"custom/right-arrow-light": {
-		"format": "",
+	
+	"custom/separator": {
+		"format": "|",
 		"tooltip": false
 	},
 	"sway/workspaces": {
