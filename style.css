@@ -25,11 +25,12 @@ window#waybar {
 #workspaces button:hover {
 	box-shadow: inherit;
 	text-shadow: inherit;
+  padding: 0 8px;
 }
 #workspaces button:hover {
 	
 	border: #1a1a1a;
-	padding: 0 3px;
+	padding: 0 8px;
 }
 #backlight{
     color: #268bd2;

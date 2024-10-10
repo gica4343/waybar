@@ -9,6 +9,8 @@
     "custom/separator",
     "pulseaudio",
     "custom/separator",
+    "custom/weather",
+    "custom/separator",
     "clock#1",
 
 	],
@@ -19,7 +21,13 @@
 		"disk",
 	],
 
-	
+	"custom/weather": {
+    "format": "{}°",
+    "tooltip": true,
+    "interval": 3600,
+    "exec": "wttrbar",
+    "return-type": "json"
+  },
 	"custom/separator": {
 		"format": "|",
 		"tooltip": false
